@@ -1,3 +1,5 @@
+from dir1.dir2.func import func
+
 import mlrun.serving
 
 class SlotFillerServe(mlrun.serving.V2ModelServer):
